@@ -1,0 +1,64 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    
+    scroll-behavior: smooth;
+}
+.section{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1{
+    background-color: #ffc107;
+    
+}
+
+.pulse{
+    animation:textchangecolor 5s infinite alternate;
+}
+
+.section2{
+    background-color: #f8f9fa;
+}
+
+.section3{
+    background-color: #343a40;
+}
+
+.section4{
+    
+}
+
+.section5{
+    
+}
+
+@keyframes bgcolourchange{
+    0%{
+        background-color: #f8f9fa;
+    }
+    100%{
+        background-color: #ffc107;
+    }
+}
+
+@keyframes pulse{
+    0%, 100%{
+        transform: scale(1);
+    }
+    25%,50%, 75%{
+        transform: scale(0.5);
+    }
+}
+
+@keyframes textchangecolor{
+    25%, 75%{
+        color: #f8f9fa;
+    }
+    50%, 100%{
+        color: black;
+    }
+}
