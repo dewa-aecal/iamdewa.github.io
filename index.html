@@ -13,16 +13,16 @@
   </head>
   <body>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-bottom">
           <div class="container">
-            <a class="navbar-brand" href="#"><strong>><span class="lead">D</span><span class="lead" style="color: #f8f9fa;">E</span><span class="lead">W</span><span class="lead" style="color: #f8f9fa;">A</span></strong></a>
+            <a class="navbar-brand" href="#"><strong>&#9002;<span class="lead">D</span><span style="color: #f8f9fa; font-size: 25px;">&#x2211;</span><span class="lead">W</span><span class="lead" style="color: #f8f9fa;">&#8710;</span></strong></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link"  href="#">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#me">About</a>
@@ -37,7 +37,12 @@
         <!-- end of navbar -->
       <section id="home" class="section section1">
         <div class="container">
-            <h1 class="display-3 fw-bold">Welcome | <span class="pulse" style="color: #f8f9fa;">ようこそ</span></h1>
+            <div class="row justify-content-center">
+                <h1 class="display-3 fw-bold col-auto">Welcome | <span style="color: #f8f9fa;">ようこそ</span></h1>
+            </div>
+            <div class="row justify-content-center">
+                <a class="col-auto text-decoration-none" href="#me"><span style='font-size:100px;' class="col-auto pulse">&#8623;</span></a>
+            </div>
 
           
           </div>
@@ -49,7 +54,7 @@
             </div>
             <div class="row">
                 <div class="col-md-8 mb-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I am a doctoral student at Ritsumeikan University 立命館大学, specializing in Human-Computer Interaction and Affective Engineering　感性工学. My research focuses on emotion recognition in educational settings, exploring how technology can better understand and support learners' emotional experiences. I enjoy reading books about psychology, culture, and history, which broaden my perspective and inspire my work.
                 </div>
                 <div class="col-md-4">
                     <figure class="figure">
@@ -80,14 +85,30 @@
         </section>
 
         <section id="quotes" class="section section1">
-            <figure>
-                <blockquote class="blockquote">
-                    <p class="lead">The person who doesn’t make mistakes is unlikely to make anything.</p>
-                </blockquote>
-                <figcaption class="blockquote-footer lead">
-                    Paul Arden
-                </figcaption>
-            </figure>
+
+            <div class="container">
+                <div class="row justify-content-start">
+                            <figure class="col-auto">
+                                <blockquote class="blockquote">
+                                    <p class="lead">Being wrong opens us up to the possibility of change. Being wrong brings the opportunity for growth</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer lead">
+                                    Mark Manson
+                                </figcaption>
+                            </figure>
+                </div>
+                <div class="row justify-content-start">
+                            <figure class="col-auto">
+                                <blockquote class="blockquote">
+                                    <p class="lead">The person who doesn’t make mistakes is unlikely to make anything.</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer lead">
+                                    Paul Arden
+                                </figcaption>
+                            </figure>
+                </div>
+            
+            </div>
         </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
