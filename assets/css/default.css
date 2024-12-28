@@ -20,19 +20,25 @@ html, body{
 }
 
 .section2{
-    background-color: #f8f9fa;
+/*    background-color: #ffd54a;*/
+    background: linear-gradient(to bottom, #ffc107, #ffd54a);
 }
 
 .section3{
-    background-color: #343a40;
+/*    background-color: #ffe082;*/
+    background: linear-gradient(to bottom, #ffd54a, #ffe082);
 }
 
 .section4{
-    
+/*    background-color: #ffecb3;*/
+    background: linear-gradient(to bottom, #ffe082, #ffecb3);
 }
 
 .section5{
-    
+    background: linear-gradient(to bottom, #ffecb3, #f8f9fa);
+}
+.section6{
+    background: #f8f9fa;
 }
 
 @keyframes bgcolourchange{
