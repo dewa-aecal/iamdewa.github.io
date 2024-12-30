@@ -1,4 +1,4 @@
-    const sentences = ["Hello!", "Welcome to my site","ようこそ", "Scrool to see more"];
+    const sentences = ["Hello!", "Welcome to my site","ようこそ", "Swipe to see more"];
     let currentIndex = 0;
     const scrambleElement = document.getElementById("scramble");
     const scrambleSpeed = 50; // Time per scramble iteration (ms)
@@ -6,7 +6,7 @@
     const loopDelay = 2000; // Delay before switching to the next sentence (ms)
 
     function scrambleText(targetText, callback) {
-      const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
+      const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()あいうえおかきくけこさしすせそなにぬねのまみむめもたちつてとやゆよわを";
       const scrambleLength = targetText.length;
       let iterations = 0;
       const maxIterations = 20; // Number of scrambling iterations
